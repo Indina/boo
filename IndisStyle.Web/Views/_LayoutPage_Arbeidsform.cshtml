@@ -1,0 +1,287 @@
+﻿@using System.Web.Optimization
+<!DOCTYPE html>
+
+<html>
+
+
+
+<head>
+
+    <link rel="shortcut icon" href="~/Content/images/faviicon.png" />
+
+    <meta name="IndisStyle" content="Web developer, webutvikler web design" />
+    <meta name="viewport" content="width=device-width" />
+
+    @Styles.Render("~/Content/css")
+
+    <!-- All JavaScript at the bottom, except this Modernizr build.
+       Modernizr enables HTML5 elements & feature detects for optimal performance.
+       Create your own custom Modernizr build: www.modernizr.com/download/ -->
+    @Scripts.Render("~/bundles/modernizr")
+
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+
+
+
+
+
+    @using System.Web.Optimization
+    <!DOCTYPE html>
+
+    <html>
+    <head>
+
+        <link rel="shortcut icon" href="~/Content/images/faviicon.png" />
+        <meta charset="utf-8">
+        <title>@ViewBag.Title</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- : fill with your company info or remove -->
+        <meta name="description" content="">
+        <meta name="author" content="Themelize.me">
+
+        <meta name="IndisStyle" content="Web developer, webutvikler web design" />
+        <meta name="viewport" content="width=device-width" />
+
+        <!-- Le fav and touch icons - todo: fill with your icons or remove -->
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="~/Content/img/icons/114x114.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="~/Content/img/icons/72x72.png">
+        <link rel="apple-touch-icon-precomposed" href="~/Content/img/icons/default.png">
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Condiment' rel='stylesheet' type='text/css'>
+
+
+        @Styles.Render("~/Styles/css")
+
+        <!-- HTML5 shiv & respond.js for IE6-8 support of HTML5 elements & media queries -->
+        <!--[if lt IE 9]>
+          <script src="plugins/html5shiv/dist/html5shiv.js"></script>
+          <script src="plugins/respond/respond.min.js"></script>
+        <![endif]-->
+        <!-- All JavaScript at the bottom, except this Modernizr build.
+           Modernizr enables HTML5 elements & feature detects for optimal performance.
+           Create your own custom Modernizr build: www.modernizr.com/download/ -->
+        @Scripts.Render("~/bundles/modernizr")
+
+
+
+
+    </head>
+    <body class="has-navbar-fixed-top page-index">
+
+        <!-- region: Navigation -->
+        <div id="navigation" class="wrapper">
+            <div class="navbar-static-top">
+
+                <!--Hidden Header Region-->
+                <div class="header-hidden">
+                    <div class="header-hidden-inner container">
+                        <div class="row">
+                            <div class="col-sm-4 col-md-4">
+                                <h3>About Us</h3>
+                                <p>Making the web a prettier place one template at a time! We make beautiful, quality, responsive Drupal &amp; web templates!</p>
+                                <a href="about.htm" class="btn btn-sm btn-primary">Find out more</a>
+                            </div>
+                            <div class="col-sm-4 col-md-4">
+
+                                <h3>Contact Us</h3>
+                                <address>
+                                    <p><abbr title="Phone"><i class="icon-phone"></i></abbr> 019223 8092344</p>
+                                    <p><abbr title="Email"><i class="icon-envelope"></i></abbr> info@themelize.me</p>
+                                    <p><abbr title="Address"><i class="icon-home"></i></abbr> Sunshine House, Sunville. SUN12 8LU.</p>
+                                </address>
+                            </div>
+                            <div class="col-sm-4 col-md-4">
+
+                                <div class="colour-switcher">
+                                    <h3>Theme Colours</h3>
+                                    <a href="#green" class="green active" data-toggle="tooltip" data-placement="bottom" data-original-title="Green (Default)">Green</a> <a href="#red" class="red" data-toggle="tooltip" data-placement="bottom" data-original-title="Red">Red</a> <a href="#blue" class="blue" data-toggle="tooltip" data-placement="bottom" data-original-title="Blue">Blue</a>
+                                    <p>Cookies are NOT enabled so colour selection is not persistent.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Header & Branding region-->
+                <div class="header">
+                    <div class="header-inner container">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <!--branding/logo-->
+                                <a class="navbar-brand" href="index.htm" title="Home">
+                                    <h1><span>App</span>Strap<span>.</span></h1>
+                                </a>
+                                <div class="slogan">Responsive HTML Theme</div>
+                            </div>
+
+                            <!--header rightside-->
+                            <div class="col-md-4">
+                                <!--social media icons-->
+                                <div class="social-media">
+
+                                    <a href="#"><i class="icon-twitter"></i></a> <a href="#"><i class="icon-facebook"></i></a> <a href="#"><i class="icon-linkedin"></i></a> <a href="#"><i class="icon-google-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="header-hidden-link"> <a href="#" title="Click me you'll get a surprise" class="show-hide" data-toggle="show-hide" data-target=".header-hidden"><i></i>Open</a> </div>
+                    </div>
+                </div>
+                <div class="js-clingify-placeholder" style="height: 58px;">
+                    <div class="js-clingify-wrapper">
+                        <div class="container" data-toggle="clingify">
+                            <div class="navbar">
+
+                                <!--
+                                mobile collapse menu button
+                                - data-toggle="toggle" = default BS menu
+                                - data-toggle="jpanel-menu" = jPanel Menu
+                                -->
+                                <a class="navbar-btn" data-toggle="jpanel-menu" data-target=".navbar-collapse"> <span class="bar"></span> <span class="bar"></span> <span class="bar"></span> <span class="bar"></span> </a>
+
+                                <!--user menu-->
+                                <div class="btn-group user-menu pull-right"> <a href="#signup-modal" class="btn btn-primary signup" data-toggle="modal">Sign Up</a> <a href="#login-modal" class="btn btn-primary dropdown-toggle login" data-toggle="modal">Login</a> </div>
+
+                                <!--everything within this div is collapsed on mobile-->
+                                <div class="navbar-collapse collapse">
+
+                                    <!--main navigation-->
+                                    <ul class="nav" id="main-menu">
+                                        <li class="home-link"><a href="~/home"><i class="icon-home"></i><span class="hidden">Hjem</span></a></li>
+
+
+                                        <li class="dropdown ">
+                                            <a href="blog.htm" class="dropdown-toggle" id="blog-drop" data-toggle="dropdown">Produkt</a>
+                                            <!-- Dropdown Menu -->
+                                            <ul class="dropdown-menu pull-left" role="menu" aria-labelledby="blog-drop">
+                                                <li role="menuitem"><a href="~/home/behov" tabindex="-1" class="menu-item">Behov</a></li>
+                                                <li role="menuitem"><a href="~/home/system" tabindex="-1" class="menu-item">System</a></li>
+                                                <li role="menuitem"><a href="~/home/prosjekt" tabindex="-1" class="menu-item">Prosjekt</a></li>
+                                                <li role="menuitem"><a href="~/home/integrering" tabindex="-1" class="menu-item">Integrering</a></li>
+                                                <li role="menuitem"><a href="~/home/api" tabindex="-1" class="menu-item">API</a></li>
+                                            </ul>
+                                        </li>
+
+
+                                        <li><a href="~/home/omoss">Om oss</a></li>
+                                    </ul>
+                                </div>
+                                <!--/.navbar-collapse -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container" id="about">
+            <div class="row">
+
+                <div class="col-md-3 sidebar">
+                    <div class="section-menu">
+                        <ul class="nav nav-list">
+                            <li class="nav-header">In This Section</li>
+                           
+
+                            <li class="active"><a href="~/home/behov" class="first">Behov<small>Hva vi kan gjøre for deg</small><i class="icon-angle-right"></i></a></li>
+                            <li ><a href="~/home/system" >System<small>Vårt system BOO</small><i class="icon-angle-right"></i></a></li>
+                            <li ><a href="~/home/prosjekt" >Prosjekt<small>Prosjektbeskrivelse</small><i class="icon-angle-right"></i></a></li>
+                            <li ><a href="~/home/integrering" >Integrering<small>3 integreringsmuligheter</small><i class="icon-angle-right"></i></a></li>
+                            <li ><a href="~/home/api" >API<small>API-dokumentasjonen</small><i class="icon-angle-right"></i></a></li>
+
+
+
+                        </ul>
+                    </div>
+                </div>
+
+
+
+
+                @RenderBody()
+
+
+
+
+
+
+                </div>
+            </div>
+
+
+
+        <!-- region: Footer -->
+
+        <footer id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col">
+                        <div class="block contact-block">
+
+                            <h3>Contact Us</h3>
+                            <address>
+                                <p><abbr title="Phone"><i class="icon-phone"></i></abbr> 019223 8092344</p>
+                                <p><abbr title="Email"><i class="icon-envelope"></i></abbr> info@appstrap.me</p>
+                                <p><abbr title="Address"><i class="icon-home"></i></abbr> Sunshine House, Sunville. SUN12 8LU.</p>
+                            </address>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col">
+                        <div class="block">
+                            <h3>About Us</h3>
+                            <p>Making the web a prettier place one template at a time! We make beautiful, quality, responsive Drupal &amp; web templates!</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col">
+                        <div class="block newsletter">
+                            <h3>Newsletter</h3>
+                            <p>Stay up to date with our latest news and product releases by signing up to our newsletter.</p>
+
+                            <form role="form">
+                                <div class="input-group input-group-sm">
+                                    <label class="sr-only" for="email-field">Email</label>
+                                    <input type="text" class="form-control" id="email-field" placeholder="Email">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-primary" type="button">Go!</button>
+                                    </span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="toplink"><a href="#top" class="top-link" title="Back to top">Back To Top <i class="icon-chevron-up"></i></a></div>
+
+                    <div class="subfooter">
+                        <div class="col-md-6">
+                            <p>Site template by <a href="#">AppStrap</a> | Copyright 2012 © AppStrap</p>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="list-inline footer-menu">
+                                <li><a href="#">Terms</a></li>
+                                <li><a href="#">Privacy</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+        @Scripts.Render(
+        "~/bundles/libs"
+    )
+
+    </body>
+</html>
+
+
+</body>
+</html>

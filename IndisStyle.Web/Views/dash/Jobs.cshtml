@@ -1,0 +1,232 @@
+﻿@{
+    ViewBag.Title = "Lag en kravspek";
+    Layout = "~/Views/_LayoutPage_dashboard.cshtml";
+}
+<div class="main-content">
+    <div class="container">
+        <div class="row">
+
+            <div class="area-top clearfix">
+                <div class="pull-left header">
+                    <h3 class="title">
+                        <i class="icon-table"></i>
+                        Jobs
+                    </h3>
+                    <h5>
+                        <span>
+                            Oversikt over jobber
+                        </span>
+                    </h5>
+                </div>
+
+                <ul class="list-inline pull-right sparkline-box">
+
+                    <li class="sparkline-row">
+                        <button id="open-wizard" class="btn btn-blue">Create new job</button>
+          
+           
+            </li>
+
+
+            </ul>
+        </div>
+        </div>
+    </div>
+
+  
+
+    <div class="container">
+
+
+       
+
+            <div class="row">
+
+                <div class="col-md-12">
+                    <div class="box">
+                        <div class="box-header"><span class="title">Data Tables</span></div>
+                        <div class="box-content">
+                            <!-- find me in partials/data_tables_custom -->
+
+
+
+
+
+                            <div id="dataTables">
+
+                                <div id="DataTables_Table_0_wrapper" class="dataTables_wrapper form-inline" role="grid">
+
+
+
+                                    <table data-provides="rowlink" cellpadding="0" cellspacing="0" border="0" class="dTable jobs-table responsive dataTable" id="DataTables_Table_0" aria-describedby="DataTables_Table_0_info">
+                                        <thead>
+
+
+
+                                            <tr role="row">
+                                                <th class="sorting_asc" role="columnheader" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Rendering engine: activate to sort column descending">
+                                                    <div>Id</div>
+                                                </th>
+                                                <th class="sorting" role="columnheader" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Browser: activate to sort column ascending">
+                                                    <div>Status</div>
+                                                </th>
+
+                                                <th class="sorting" role="columnheader" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Platform(s): activate to sort column ascending">
+                                                    <div>Data</div>
+                                                </th>
+                                                <th style="width: 100px;" class="sorting" role="columnheader" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Platform(s): activate to sort column ascending">
+                                                    <div>Result</div>
+                                                </th>
+
+                                                <th style="width: 180px; " class=" sorting" role="columnheader" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Engine version: activate to sort column ascending">
+                                                    <div>Preliminery result</div>
+                                                </th>
+                                                <th class="sorting" role="columnheader" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Browser: activate to sort column ascending">
+                                                    <div>Modus</div>
+                                                </th>
+                                                <th style="width: 40px" role="columnheader" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Engine version: activate to sort column ascending">
+                                                    <div></div>
+                                                </th>
+                                            </tr>
+                                        </thead>
+
+                                        <tbody role="alert" aria-live="polite" aria-relevant="all">
+                                            <tr class="odd">
+                                                <td class=" sorting_1">Gecko</td>
+                                                <td class=" ">Firefox 1.0</td>
+                                                <td class=" ">Win 98+ / OSX.2+</td>
+                                                <td style="width: 60px;"><div class="sparkline"><canvas width="4" height="18" style="display: inline-block; width: 4px; height: 18px; vertical-align: top;"></canvas></div></td>
+
+                                                <td class="center "><b>80%</b></td>
+                                                <td class="status-error"><i class="icon-circle-arrow-down"></i> -5%</td>
+                                                <td>
+
+                                                    <a href="~/dash/job101" class="btn btn-xs btn-default ">
+                                                        <i class="icon-cog"></i>
+                                                    </a>
+
+                                                </td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td class=" sorting_1">Gecko</td>
+                                                <td class=" ">Firefox 1.5</td>
+                                                <td class=" ">Win 98+ / OSX.2+</td>
+                                                <td><div class="sparkline"><canvas width="4" height="18" style="display: inline-block; width: 4px; height: 18px; vertical-align: top;"></canvas></div></td>
+
+                                                <td class="center "><b>80%</b></td>
+                                                <td class="status-error"><i class="icon-circle-arrow-down"></i> -5%</td>
+                                                <td>
+
+                                                    <a href="~/dash/job101" class="btn btn-xs btn-default ">
+                                                        <i class="icon-cog"></i>
+                                                    </a>
+
+                                                </td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td class=" sorting_1">Gecko</td>
+                                                <td class=" ">Firefox 2.0</td>
+                                                <td class=" ">Win 98+ / OSX.2+</td>
+                                                <td><div class="sparkline"><canvas width="4" height="18" style="display: inline-block; width: 4px; height: 18px; vertical-align: top;"></canvas></div></td>
+
+                                                <td class="center "><b>80%</b></td>
+                                                <td class="status-success"><i class="icon-circle-arrow-up"></i> +10%</td>
+                                                <td>
+
+                                                    <a href="~/dash/job101" class="btn btn-xs btn-default ">
+                                                        <i class="icon-cog"></i>
+                                                    </a>
+
+                                                </td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td class=" sorting_1">Gecko</td>
+                                                <td class=" ">Firefox 3.0</td>
+                                                <td class=" ">Win 2k+ / OSX.3+</td>
+                                                <td><div class="sparkline"><canvas width="4" height="18" style="display: inline-block; width: 4px; height: 18px; vertical-align: top;"></canvas></div></td>
+
+                                                <td class="center "><b>80%</b></td>
+                                                <td class="status-success"><i class="icon-circle-arrow-up"></i> +10%</td>
+                                                <td>
+
+                                                    <a href="~/dash/job101" class="btn btn-xs btn-default ">
+                                                        <i class="icon-cog"></i>
+                                                    </a>
+
+                                                </td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td class=" sorting_1">Gecko</td>
+                                                <td class=" ">Firefox 1.0</td>
+                                                <td class=" ">Win 98+ / OSX.2+</td>
+                                                <td style="width: 60px;"><div class="sparkline"><canvas width="4" height="18" style="display: inline-block; width: 4px; height: 18px; vertical-align: top;"></canvas></div></td>
+
+                                                <td class="center "><b>80%</b></td>
+                                                <td class="status-error"><i class="icon-circle-arrow-down"></i> -5%</td>
+                                                <td>
+
+                                                    <a href="~/dash/job101" class="btn btn-xs btn-default ">
+                                                        <i class="icon-cog"></i>
+                                                    </a>
+
+                                                </td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td class=" sorting_1">Gecko</td>
+                                                <td class=" ">Firefox 1.5</td>
+                                                <td class=" ">Win 98+ / OSX.2+</td>
+                                                <td><div class="sparkline"></div></td>
+
+                                                <td class="center "><b>80%</b></td>
+                                                <td class="status-error"><i class="icon-circle-arrow-down"></i> -5%</td>
+                                                <td>
+
+                                                    <a href="~/dash/job101" class="btn btn-xs btn-default ">
+                                                        <i class="icon-cog"></i>
+                                                    </a>
+
+                                                </td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td class=" sorting_1">Gecko</td>
+                                                <td class=" ">Firefox 2.0</td>
+                                                <td class=" ">Win 98+ / OSX.2+</td>
+                                                <td><div class="sparkline"><canvas width="4" height="18"></canvas></div></td>
+
+                                                <td class="center "><b>80%</b></td>
+                                                <td class="status-success"><i class="icon-circle-arrow-up"></i> +10%</td>
+                                                <td>
+
+                                                    <a href="~/dash/job101" class="btn btn-xs btn-default ">
+                                                        <i class="icon-cog"></i>
+                                                    </a>
+
+                                                </td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td class=" sorting_1">Gecko</td>
+                                                <td class=" ">Firefox 3.0</td>
+                                                <td class=" ">Win 2k+ / OSX.3+</td>
+                                                <td><div class="sparkline"><canvas width="4" height="18" style="display: inline-block; width: 4px; height: 18px; vertical-align: top;"></canvas></div></td>
+
+                                                <td class="center "><b>80%</b></td>
+                                                <td class="status-success"><i class="icon-circle-arrow-up"></i> +10%</td>
+                                                <td>
+
+                                                    <a href="~/dash/job101" class="btn btn-xs btn-default ">
+                                                        <i class="icon-cog"></i>
+                                                    </a>
+
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
